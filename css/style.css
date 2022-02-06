@@ -291,7 +291,7 @@ margin-left: 50px;
 .about-list {
     display: flex;
 }
-.about-item::before {
+/* .about-item::before {
     content: "";
     display: block;
     height: 120px;
@@ -299,7 +299,7 @@ margin-left: 50px;
     background-position: center;
     margin-bottom: 30px;
     border-radius: 4px;
-}
+} */
 .about-item-title {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -317,6 +317,26 @@ margin-left: 50px;
     letter-spacing: 0.03em;
     color: var(--text-color);
     /* margin-bottom: 94px; */
+    
+}
+.about-item-photo-img {
+    display: flex;
+    justify-content: center;
+}
+.about-item-title-img + .about-item-title-img {
+    margin-left: 30px;
+}
+.about-item-link {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F5F4FA;
+    box-sizing: border-box;
+    margin-bottom: 30px;
     
 }
 /* ----------IMAGES----------- */
