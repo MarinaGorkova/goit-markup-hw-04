@@ -395,15 +395,14 @@ margin-left: 50px;
 .about-team-social-link {
     width: 44px;
     height: 44px;
-    /* background-color: #ffffff; */
-    background-color: green;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
 }
 .about-team-social-icon {
-    fill: #FFFFFF;
+    fill: #AFB1B8;
 }
 
 /* ----------MENU----------- */
