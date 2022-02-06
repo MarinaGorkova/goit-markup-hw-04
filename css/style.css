@@ -570,3 +570,22 @@ margin-left: 50px;
 .footer-social-link:focus .footer-social-icon{
     fill: #FFFFFF;
 }
+
+.footer-all {
+    display: flex;
+    align-items: baseline;
+}
+.footer-two {
+    margin-left: 70px;
+
+}
+.footer-name-2 {
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
