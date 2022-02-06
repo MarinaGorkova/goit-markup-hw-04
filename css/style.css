@@ -291,7 +291,13 @@ margin-left: 50px;
 .about-list {
     display: flex;
 }
-
+.about-item::before {
+    content: "";
+    display: block;
+    height: 120px;
+    background-color: #F5F4FA;
+    background-position: center;
+}
 .about-item-title {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -536,4 +542,31 @@ margin-left: 50px;
 .footer-link:hover, 
 .footer-link:focus {
     color: var(--accent-color);
+}
+.footer-name-2-list {
+    display: flex;
+    justify-content: center;
+}
+.footer-social-itemm + .footer-social-item {
+    margin-left: 10px;
+}
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.footer-social-icon {
+    fill: #ffffff;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #2196F3;
+}
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon{
+    fill: #FFFFFF;
 }
