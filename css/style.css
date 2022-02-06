@@ -113,13 +113,13 @@ margin: -1px;
     display: flex;
     margin-left: auto;
   }
-  .header-tel-icon {
+  /* .header-tel-icon {
     fill: #757575;
 }
 .header-tel-link:hover,
 .header-tel-link:focus {
     background-color: #2196F3;
-}
+} */
 
 .header-logo {
     font-weight: bold;
