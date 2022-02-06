@@ -166,6 +166,16 @@ margin: -1px;
 .header-tel:last-child {
 margin-left: 50px;
 }
+.header-tel::before {
+    width: 16px;
+    height: 12px;
+    content: "";
+    /* background-color: #757575; */
+    margin-right: 10px;
+    background-image: url(../images/icons.svg#icon-envelope);
+    background-size: contain;
+    
+}
 
 /* ----------HERO----------- */
 .hero {
@@ -178,6 +188,8 @@ margin-left: 50px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1600px;
+    height: 600px;
     margin: 0;
     padding: 0;
     text-align: center;
