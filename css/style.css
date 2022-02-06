@@ -404,6 +404,14 @@ margin-left: 50px;
 .about-team-social-icon {
     fill: #AFB1B8;
 }
+.about-team-social-link:hover,
+.about-team-social-link:focus {
+    background-color: #2196F3;
+}
+.about-team-social-link:hover .about-team-social-icon,
+.about-team-social-link:focus .about-team-social-icon{
+    fill: #FFFFFF;
+}
 
 /* ----------MENU----------- */
 .portfolio {
