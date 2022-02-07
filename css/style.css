@@ -172,26 +172,30 @@ margin: -1px;
 .header-tel:last-child {
 margin-left: 50px;
 }
-.header-tel::before {
+/* .header-tel::before {
     width: 16px;
     height: 12px;
     content: "";
     display: block;
-    /* background-color: #757575; */
+    background-color: #757575;
     margin-right: 10px;
     background-image: url(../images/icons.svg#icon-envelope);
     background-size: contain;
     
-}
+} */
 .header-contacts {
     margin-left: auto;
+    display: flex;
+    
 }
-.header-tel-item {
+/* .header-tel-item {
     cursor: pointer;
     margin-right: 10px;
-}
+    display: flex;
+} */
 .header-mail {
     align-items: center;
+    margin-right: 10px;
 }
 .header-mail:hover,
 .header-mail:focus {
