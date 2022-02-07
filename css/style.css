@@ -112,6 +112,11 @@ margin: -1px;
 .list {
     display: flex;
     margin-left: auto;
+    list-style: none;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+
   }
   /* .header-tel-icon {
     fill: #757575;
@@ -160,7 +165,8 @@ margin: -1px;
     letter-spacing: 0.02em;
     color: var(--text-color);
     /* margin-right: 50px; */
-    display: flex;   
+    display: flex;  
+    align-items: center;
     
 }
 .header-tel:last-child {
@@ -170,13 +176,27 @@ margin-left: 50px;
     width: 16px;
     height: 12px;
     content: "";
+    display: block;
     /* background-color: #757575; */
     margin-right: 10px;
     background-image: url(../images/icons.svg#icon-envelope);
     background-size: contain;
     
 }
-
+.header-contacts {
+    margin-left: auto;
+}
+.header-tel-item {
+    cursor: pointer;
+    margin-right: 10px;
+}
+.header-mail {
+    align-items: center;
+}
+.header-mail:hover,
+.header-mail:focus {
+    fill:var(--accent-color);
+}
 /* ----------HERO----------- */
 .hero {
     background-color:#2F303A;
@@ -481,7 +501,12 @@ margin-left: 50px;
     height: 404px;
     margin: 15px;
     border: 1px solid #ECECEC;
-
+}
+.portfolio-list-item:hover, 
+.portfolio-list-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+     0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* .portfolio-list-item:nth-child(3n) {
     margin-right: 0;
