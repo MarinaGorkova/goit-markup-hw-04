@@ -138,11 +138,6 @@ margin: -1px;
     color: var(--header-color);
     display: block;
 }
-.header-link:hover,
-.header-link:focus {
-background-color: var(--);
-}
-
 /* .header-tel:focus {
     color: var(--accent-color);
 } */
@@ -170,16 +165,24 @@ margin-left: 50px;
 .header-mail {
     align-items: center;
     margin-right: 10px;
-    background-color: var(--text-color);
+    fill: var(--text-color);
 }
-.header-mail:hover,
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
+}
+.header-tel:hover .header-mail,
+.header-tel:focus .header-mail {
+    fill: #2196F3;
+}
+/* .header-mail:hover,
 .header-mail:focus {
     fill:var(--accent-color);
 }
 .header-mail-img:hover,
 .header-mail-img:focus {
     fill:var(--accent-color);
-}
+} */
 /* ----------HERO----------- */
 .hero {
     background-color:#2F303A;
