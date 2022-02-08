@@ -286,7 +286,6 @@ margin-left: 50px;
     background: #2196F3;
 }
 /* ----------ABOUT----------- */
-
 .about {
     background-color: white;
     padding-top: 94px;
@@ -297,7 +296,6 @@ margin-left: 50px;
 }
 .about-list {
     display: flex;
-    
 }
 /* .about-list + .about-list {
     margin-left: 30px;
@@ -334,8 +332,8 @@ margin-left: 50px;
     display: flex;
     justify-content: center;
 }
-/* .about-item-title-img + .about-item-title-img {
-    margin-left: 30px; */
+.about-item-title-img + .about-item-title-img {
+    margin-left: 30px;
 }
 .about-item-link {
     width: 270px;
@@ -542,6 +540,7 @@ margin-left: 50px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+    color: #AFB1B8;
 }
 .about-clients-icon {
     fill: #AFB1B8;
@@ -552,7 +551,7 @@ margin-left: 50px;
 }
 .about-clients-link .about-clients-icon,
 .about-clients-link .about-clients-icon {
-    color: #2196F3;
+    
     fill: #2196F3;
     
 }
