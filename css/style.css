@@ -204,7 +204,7 @@ margin-left: 50px;
 }
 .hero-container {
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .list-btn {
     display: flex;
@@ -297,6 +297,9 @@ margin-left: 50px;
 .about-list {
     display: flex;
 }
+/* .about-list + .about-list {
+    margin-left: 30px;
+} */
 /* .about-item::before {
     content: "";
     display: block;
@@ -487,6 +490,7 @@ margin-left: 50px;
     height: 404px;
     margin: 15px;
     border: 1px solid #ECECEC;
+    cursor: pointer;
 }
 .portfolio-list-item:hover, 
 .portfolio-list-item:focus {
@@ -539,6 +543,10 @@ margin-left: 50px;
 }
 .about-clients-icon {
     fill: #AFB1B8;
+}
+.about-clients-img:hover,
+.about-clients-img:focus {
+    background-color: #2196F3;
 }
 /* ----------FOOTER----------- */
 .footer {
