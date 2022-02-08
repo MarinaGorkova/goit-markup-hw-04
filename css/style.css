@@ -392,8 +392,14 @@ margin-left: 50px;
 .about-item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
+    /* width: 270px;
+    height: 75px; */
 }
+
+/* .about-list li:not(:first-child) {
+    margin-left: 30px;
+} */
 .about-item-name {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -549,8 +555,8 @@ margin-left: 50px;
 .about-clients-link:focus {
         border: 1px solid #2196F3;
 }
-.about-clients-link .about-clients-icon,
-.about-clients-link .about-clients-icon {
+.about-clients-link:hover .about-clients-icon,
+.about-clients-link:focus .about-clients-icon {
     
     fill: #2196F3;
     
