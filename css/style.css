@@ -546,11 +546,11 @@ margin-left: 50px;
 }
 .about-clients-link:hover,
 .about-clients-link:focus {
-    color: #2196F3;
-    border: 1px solid #2196F3;
+        border: 1px solid #2196F3;
 }
 .about-clients-link .about-clients-icon,
 .about-clients-link .about-clients-icon {
+    color: #2196F3;
     fill: #2196F3;
     
 }
