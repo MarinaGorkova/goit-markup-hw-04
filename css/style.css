@@ -544,9 +544,15 @@ margin-left: 50px;
 .about-clients-icon {
     fill: #AFB1B8;
 }
-.about-clients-img:hover,
-.about-clients-img:focus {
-    background-color: #2196F3;
+.about-clients-link:hover,
+.about-clients-link:focus {
+    color: #2196F3;
+    border: 1px solid #2196F3;
+}
+.about-clients-link .about-clients-icon,
+.about-clients-link .about-clients-icon {
+    fill: #2196F3;
+    
 }
 /* ----------FOOTER----------- */
 .footer {
